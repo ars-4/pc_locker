@@ -16,7 +16,14 @@ Client folder contains the files that you can put on the PC which you want to lo
 
 
 #### Server
-     - Simple VueJS app.
+     - Pre-built: 
+       - To change $gateway head over to fil 
+         about.....js and find $gateway variable
+         having value something like: 192.168.0.
+         change it to according to your local 
+         IP like: 192.168.10.1 should be 192.168.10
+        
+     - Source Code: Simple VueJS app.
        - To change $gateway head over to main.ts.
        - To change Default Port to scan, head over
          to src/views/HomeView.vue and change lines:

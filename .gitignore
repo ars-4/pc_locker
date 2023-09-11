@@ -1,4 +1,6 @@
 release/
+*.rar
+*.zip
 client/node_modules/
 client/package-lock.json
 server/node_modules/
